@@ -31,6 +31,28 @@ This new version uses a more powerful microcontroller and high-performance compo
 - [ ] Implement improved wireless protocol.  
 - [ ] Optimize feedback and user experience.  
 
+## Project Structure
+
+- **Transmitter** → Captures motion, user input, and sends data wirelessly.  
+- **Receiver** → Receives data frames and renders drawings on a TFT screen.  
+
+Both modules are stored in their own repositories and included here as submodules for clean versioning.
+
+## Cloning the Repository
+
+Since this project uses **Git submodules**, make sure to clone it with:
+
+```bash
+git clone https://github.com/Kevin-Pottier/RPEN_V2.git
+cd RPEN_V2
+git submodule update --init --recursive
+```
+
+To get the last versions of Transmitter and Receiver separately, you can pull the latest changes into RPEN_V2 with: 
+```bash
+git submodule update --remote --merge
+```
+
 ## Developer
 
 - **Kévin Pottier** – [GitHub](https://github.com/Kevin-Pottier) | kevin.pottier@reseau.eseo.fr  
