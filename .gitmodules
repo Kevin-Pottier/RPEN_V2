@@ -1,0 +1,6 @@
+[submodule "Transmitter_RPENV2"]
+	path = Transmitter_RPENV2
+	url = https://github.com/Kevin-Pottier/Transmitter_RPENV2
+[submodule "Receiver_RPEN_V2"]
+	path = Receiver_RPEN_V2
+	url = https://github.com/Kevin-Pottier/Receiver_RPEN_V2
